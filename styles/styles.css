@@ -35,12 +35,26 @@ body {
 
 .name-web {
     font-family: 'DM Serif Display';
+    font-weight: bold;
     background-color: #333333f6;
     width: 300px;
     padding: 20px 5px 20px 20px;
     margin: 50px;
     color: black;
     border-radius: 3px;
+    cursor: pointer;
+    transition:  0.5s var(cubic-bezier(.32,.85,.75,1.13));
+}
+
+.name-web span:hover {
+        margin-left: 4px;
+        transition-duration: .7s;
+        text-shadow: 0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 200px #fff;
+}
+.name-web span:hover::after{
+    content: "*";
 }
 
 .nav-principal {
@@ -166,6 +180,11 @@ body {
     -webkit-transition: all .4s ease-in-out 0.4s;
     -moz-transition: all .4s ease-in-out 0.4s;
     transition: all 0.1s ease-in-out 0s;
+
+    transition-duration: .2s;
+    text-shadow: 0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 200px #fff;
 }
 
 .carrouzel {
@@ -189,6 +208,11 @@ body {
     -webkit-transition: all .4s ease-in-out 0.4s;
     -moz-transition: all .4s ease-in-out 0.4s;
     transition: all 0.1s ease-in-out 0s;
+
+    transition-duration: .2s;
+    text-shadow: 0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 200px #fff;
 }
 
 /* carrouzel */
@@ -239,6 +263,11 @@ body {
     -webkit-transition: all .4s ease-in-out 0.4s;
     -moz-transition: all .4s ease-in-out 0.4s;
     transition: all 0.1s ease-in-out 0s;
+
+    transition-duration: .2s;
+    text-shadow: 0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 200px #fff;
 }
 
 .articulo {
